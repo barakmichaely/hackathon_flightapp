@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E50C9D031AC5B94900CEB6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D021AC5B94900CEB6EC /* AppDelegate.swift */; };
+		E50C9D061AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D041AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodeld */; };
+		E50C9D081AC5B94900CEB6EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D071AC5B94900CEB6EC /* ViewController.swift */; };
+		E50C9D0B1AC5B94900CEB6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D091AC5B94900CEB6EC /* Main.storyboard */; };
+		E50C9D0D1AC5B94900CEB6EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D0C1AC5B94900CEB6EC /* Images.xcassets */; };
+		E50C9D101AC5B94900CEB6EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D0E1AC5B94900CEB6EC /* LaunchScreen.xib */; };
+		E50C9D1C1AC5B94900CEB6EC /* LastMinuteFlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D1B1AC5B94900CEB6EC /* LastMinuteFlightTests.swift */; };
+		E50C9D281AC5C86F00CEB6EC /* ResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D271AC5C86F00CEB6EC /* ResultList.swift */; };
+		E50C9D2A1AC5D00E00CEB6EC /* clock118.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D291AC5D00E00CEB6EC /* clock118.png */; };
+		E50C9D2C1AC5D02300CEB6EC /* cancel29.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D2B1AC5D02300CEB6EC /* cancel29.png */; };
+		E50C9D2E1AC5D06500CEB6EC /* dark37.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D2D1AC5D06500CEB6EC /* dark37.png */; };
+		E50C9D301AC5D1B500CEB6EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D2F1AC5D1B500CEB6EC /* SearchView.swift */; };
+		E50C9D321AC5D65500CEB6EC /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D311AC5D65500CEB6EC /* TicketView.swift */; };
+		E50C9D341AC5D68300CEB6EC /* go10.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D331AC5D68300CEB6EC /* go10.png */; };
+		E50C9D361AC5DD4C00CEB6EC /* chevron2.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D351AC5DD4C00CEB6EC /* chevron2.png */; };
+		E50C9D381AC5E43600CEB6EC /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D371AC5E43600CEB6EC /* Navigation.swift */; };
+		E50C9D3A1AC5EAC100CEB6EC /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D391AC5EAC100CEB6EC /* AccountView.swift */; };
+		E50C9D3C1AC5F6D800CEB6EC /* SearchPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C9D3B1AC5F6D800CEB6EC /* SearchPopup.swift */; };
+		E50C9D3F1AC5F9F400CEB6EC /* AirHop.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D3E1AC5F9F400CEB6EC /* AirHop.png */; };
+		E50C9D401AC5FA8D00CEB6EC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */; };
+		E50C9D411AC5FAB200CEB6EC /* Lato-Light.ttf in Frameworks */ = {isa = PBXBuildFile; fileRef = E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */; };
+		E50C9D431AC5FB3300CEB6EC /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D421AC5FB3300CEB6EC /* images.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E50C9D161AC5B94900CEB6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50C9CF51AC5B94900CEB6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E50C9CFC1AC5B94900CEB6EC;
+			remoteInfo = LastMinuteFlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E50C9CFD1AC5B94900CEB6EC /* LastMinuteFlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastMinuteFlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50C9D011AC5B94900CEB6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50C9D021AC5B94900CEB6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E50C9D051AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LastMinuteFlight.xcdatamodel; sourceTree = "<group>"; };
+		E50C9D071AC5B94900CEB6EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E50C9D0A1AC5B94900CEB6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E50C9D0C1AC5B94900CEB6EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E50C9D0F1AC5B94900CEB6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E50C9D151AC5B94900CEB6EC /* LastMinuteFlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastMinuteFlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50C9D1A1AC5B94900CEB6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50C9D1B1AC5B94900CEB6EC /* LastMinuteFlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMinuteFlightTests.swift; sourceTree = "<group>"; };
+		E50C9D271AC5C86F00CEB6EC /* ResultList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultList.swift; path = ../ResultList.swift; sourceTree = "<group>"; };
+		E50C9D291AC5D00E00CEB6EC /* clock118.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock118.png; sourceTree = "<group>"; };
+		E50C9D2B1AC5D02300CEB6EC /* cancel29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel29.png; sourceTree = "<group>"; };
+		E50C9D2D1AC5D06500CEB6EC /* dark37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark37.png; sourceTree = "<group>"; };
+		E50C9D2F1AC5D1B500CEB6EC /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		E50C9D311AC5D65500CEB6EC /* TicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		E50C9D331AC5D68300CEB6EC /* go10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go10.png; sourceTree = "<group>"; };
+		E50C9D351AC5DD4C00CEB6EC /* chevron2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chevron2.png; sourceTree = "<group>"; };
+		E50C9D371AC5E43600CEB6EC /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		E50C9D391AC5EAC100CEB6EC /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		E50C9D3B1AC5F6D800CEB6EC /* SearchPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPopup.swift; sourceTree = "<group>"; };
+		E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		E50C9D3E1AC5F9F400CEB6EC /* AirHop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirHop.png; sourceTree = "<group>"; };
+		E50C9D421AC5FB3300CEB6EC /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E50C9CFA1AC5B94900CEB6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50C9D411AC5FAB200CEB6EC /* Lato-Light.ttf in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50C9D121AC5B94900CEB6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E50C9CF41AC5B94900CEB6EC = {
+			isa = PBXGroup;
+			children = (
+				E50C9CFF1AC5B94900CEB6EC /* LastMinuteFlight */,
+				E50C9D181AC5B94900CEB6EC /* LastMinuteFlightTests */,
+				E50C9CFE1AC5B94900CEB6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E50C9CFE1AC5B94900CEB6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E50C9CFD1AC5B94900CEB6EC /* LastMinuteFlight.app */,
+				E50C9D151AC5B94900CEB6EC /* LastMinuteFlightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E50C9CFF1AC5B94900CEB6EC /* LastMinuteFlight */ = {
+			isa = PBXGroup;
+			children = (
+				E50C9D021AC5B94900CEB6EC /* AppDelegate.swift */,
+				E50C9D371AC5E43600CEB6EC /* Navigation.swift */,
+				E50C9D071AC5B94900CEB6EC /* ViewController.swift */,
+				E50C9D271AC5C86F00CEB6EC /* ResultList.swift */,
+				E50C9D421AC5FB3300CEB6EC /* images.jpeg */,
+				E50C9D091AC5B94900CEB6EC /* Main.storyboard */,
+				E50C9D3B1AC5F6D800CEB6EC /* SearchPopup.swift */,
+				E50C9D3E1AC5F9F400CEB6EC /* AirHop.png */,
+				E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */,
+				E50C9D391AC5EAC100CEB6EC /* AccountView.swift */,
+				E50C9D311AC5D65500CEB6EC /* TicketView.swift */,
+				E50C9D2F1AC5D1B500CEB6EC /* SearchView.swift */,
+				E50C9D351AC5DD4C00CEB6EC /* chevron2.png */,
+				E50C9D331AC5D68300CEB6EC /* go10.png */,
+				E50C9D2D1AC5D06500CEB6EC /* dark37.png */,
+				E50C9D2B1AC5D02300CEB6EC /* cancel29.png */,
+				E50C9D0C1AC5B94900CEB6EC /* Images.xcassets */,
+				E50C9D291AC5D00E00CEB6EC /* clock118.png */,
+				E50C9D0E1AC5B94900CEB6EC /* LaunchScreen.xib */,
+				E50C9D041AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodeld */,
+				E50C9D001AC5B94900CEB6EC /* Supporting Files */,
+			);
+			path = LastMinuteFlight;
+			sourceTree = "<group>";
+		};
+		E50C9D001AC5B94900CEB6EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50C9D011AC5B94900CEB6EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E50C9D181AC5B94900CEB6EC /* LastMinuteFlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				E50C9D1B1AC5B94900CEB6EC /* LastMinuteFlightTests.swift */,
+				E50C9D191AC5B94900CEB6EC /* Supporting Files */,
+			);
+			path = LastMinuteFlightTests;
+			sourceTree = "<group>";
+		};
+		E50C9D191AC5B94900CEB6EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50C9D1A1AC5B94900CEB6EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E50C9CFC1AC5B94900CEB6EC /* LastMinuteFlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50C9D1F1AC5B94900CEB6EC /* Build configuration list for PBXNativeTarget "LastMinuteFlight" */;
+			buildPhases = (
+				E50C9CF91AC5B94900CEB6EC /* Sources */,
+				E50C9CFA1AC5B94900CEB6EC /* Frameworks */,
+				E50C9CFB1AC5B94900CEB6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LastMinuteFlight;
+			productName = LastMinuteFlight;
+			productReference = E50C9CFD1AC5B94900CEB6EC /* LastMinuteFlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E50C9D141AC5B94900CEB6EC /* LastMinuteFlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50C9D221AC5B94900CEB6EC /* Build configuration list for PBXNativeTarget "LastMinuteFlightTests" */;
+			buildPhases = (
+				E50C9D111AC5B94900CEB6EC /* Sources */,
+				E50C9D121AC5B94900CEB6EC /* Frameworks */,
+				E50C9D131AC5B94900CEB6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50C9D171AC5B94900CEB6EC /* PBXTargetDependency */,
+			);
+			name = LastMinuteFlightTests;
+			productName = LastMinuteFlightTests;
+			productReference = E50C9D151AC5B94900CEB6EC /* LastMinuteFlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E50C9CF51AC5B94900CEB6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Barak M";
+				TargetAttributes = {
+					E50C9CFC1AC5B94900CEB6EC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E50C9D141AC5B94900CEB6EC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E50C9CFC1AC5B94900CEB6EC;
+					};
+				};
+			};
+			buildConfigurationList = E50C9CF81AC5B94900CEB6EC /* Build configuration list for PBXProject "LastMinuteFlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E50C9CF41AC5B94900CEB6EC;
+			productRefGroup = E50C9CFE1AC5B94900CEB6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E50C9CFC1AC5B94900CEB6EC /* LastMinuteFlight */,
+				E50C9D141AC5B94900CEB6EC /* LastMinuteFlightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E50C9CFB1AC5B94900CEB6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50C9D0B1AC5B94900CEB6EC /* Main.storyboard in Resources */,
+				E50C9D341AC5D68300CEB6EC /* go10.png in Resources */,
+				E50C9D401AC5FA8D00CEB6EC /* Lato-Light.ttf in Resources */,
+				E50C9D2E1AC5D06500CEB6EC /* dark37.png in Resources */,
+				E50C9D2C1AC5D02300CEB6EC /* cancel29.png in Resources */,
+				E50C9D2A1AC5D00E00CEB6EC /* clock118.png in Resources */,
+				E50C9D101AC5B94900CEB6EC /* LaunchScreen.xib in Resources */,
+				E50C9D431AC5FB3300CEB6EC /* images.jpeg in Resources */,
+				E50C9D3F1AC5F9F400CEB6EC /* AirHop.png in Resources */,
+				E50C9D361AC5DD4C00CEB6EC /* chevron2.png in Resources */,
+				E50C9D0D1AC5B94900CEB6EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50C9D131AC5B94900CEB6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E50C9CF91AC5B94900CEB6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50C9D321AC5D65500CEB6EC /* TicketView.swift in Sources */,
+				E50C9D301AC5D1B500CEB6EC /* SearchView.swift in Sources */,
+				E50C9D3C1AC5F6D800CEB6EC /* SearchPopup.swift in Sources */,
+				E50C9D381AC5E43600CEB6EC /* Navigation.swift in Sources */,
+				E50C9D081AC5B94900CEB6EC /* ViewController.swift in Sources */,
+				E50C9D3A1AC5EAC100CEB6EC /* AccountView.swift in Sources */,
+				E50C9D031AC5B94900CEB6EC /* AppDelegate.swift in Sources */,
+				E50C9D281AC5C86F00CEB6EC /* ResultList.swift in Sources */,
+				E50C9D061AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50C9D111AC5B94900CEB6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50C9D1C1AC5B94900CEB6EC /* LastMinuteFlightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E50C9D171AC5B94900CEB6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E50C9CFC1AC5B94900CEB6EC /* LastMinuteFlight */;
+			targetProxy = E50C9D161AC5B94900CEB6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E50C9D091AC5B94900CEB6EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E50C9D0A1AC5B94900CEB6EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E50C9D0E1AC5B94900CEB6EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E50C9D0F1AC5B94900CEB6EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E50C9D1D1AC5B94900CEB6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E50C9D1E1AC5B94900CEB6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E50C9D201AC5B94900CEB6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LastMinuteFlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E50C9D211AC5B94900CEB6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LastMinuteFlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E50C9D231AC5B94900CEB6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LastMinuteFlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LastMinuteFlight.app/LastMinuteFlight";
+			};
+			name = Debug;
+		};
+		E50C9D241AC5B94900CEB6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LastMinuteFlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LastMinuteFlight.app/LastMinuteFlight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E50C9CF81AC5B94900CEB6EC /* Build configuration list for PBXProject "LastMinuteFlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50C9D1D1AC5B94900CEB6EC /* Debug */,
+				E50C9D1E1AC5B94900CEB6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50C9D1F1AC5B94900CEB6EC /* Build configuration list for PBXNativeTarget "LastMinuteFlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50C9D201AC5B94900CEB6EC /* Debug */,
+				E50C9D211AC5B94900CEB6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E50C9D221AC5B94900CEB6EC /* Build configuration list for PBXNativeTarget "LastMinuteFlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50C9D231AC5B94900CEB6EC /* Debug */,
+				E50C9D241AC5B94900CEB6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E50C9D041AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E50C9D051AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodel */,
+			);
+			currentVersion = E50C9D051AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodel */;
+			path = LastMinuteFlight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E50C9CF51AC5B94900CEB6EC /* Project object */;
+}
