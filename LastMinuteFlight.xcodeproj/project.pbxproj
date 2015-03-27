@@ -29,6 +29,8 @@
 		E50C9D401AC5FA8D00CEB6EC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */; };
 		E50C9D411AC5FAB200CEB6EC /* Lato-Light.ttf in Frameworks */ = {isa = PBXBuildFile; fileRef = E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */; };
 		E50C9D431AC5FB3300CEB6EC /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D421AC5FB3300CEB6EC /* images.jpeg */; };
+		E50C9D461AC5FDF600CEB6EC /* AppIcon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D441AC5FDF600CEB6EC /* AppIcon_120.png */; };
+		E50C9D471AC5FDF600CEB6EC /* AppIcon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D451AC5FDF600CEB6EC /* AppIcon_180.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		E50C9D3E1AC5F9F400CEB6EC /* AirHop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirHop.png; sourceTree = "<group>"; };
 		E50C9D421AC5FB3300CEB6EC /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		E50C9D441AC5FDF600CEB6EC /* AppIcon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_120.png; sourceTree = "<group>"; };
+		E50C9D451AC5FDF600CEB6EC /* AppIcon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_180.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				E50C9D3B1AC5F6D800CEB6EC /* SearchPopup.swift */,
 				E50C9D3E1AC5F9F400CEB6EC /* AirHop.png */,
 				E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */,
+				E50C9D441AC5FDF600CEB6EC /* AppIcon_120.png */,
+				E50C9D451AC5FDF600CEB6EC /* AppIcon_180.png */,
 				E50C9D391AC5EAC100CEB6EC /* AccountView.swift */,
 				E50C9D311AC5D65500CEB6EC /* TicketView.swift */,
 				E50C9D2F1AC5D1B500CEB6EC /* SearchView.swift */,
@@ -245,8 +251,10 @@
 				E50C9D2E1AC5D06500CEB6EC /* dark37.png in Resources */,
 				E50C9D2C1AC5D02300CEB6EC /* cancel29.png in Resources */,
 				E50C9D2A1AC5D00E00CEB6EC /* clock118.png in Resources */,
+				E50C9D461AC5FDF600CEB6EC /* AppIcon_120.png in Resources */,
 				E50C9D101AC5B94900CEB6EC /* LaunchScreen.xib in Resources */,
 				E50C9D431AC5FB3300CEB6EC /* images.jpeg in Resources */,
+				E50C9D471AC5FDF600CEB6EC /* AppIcon_180.png in Resources */,
 				E50C9D3F1AC5F9F400CEB6EC /* AirHop.png in Resources */,
 				E50C9D361AC5DD4C00CEB6EC /* chevron2.png in Resources */,
 				E50C9D0D1AC5B94900CEB6EC /* Images.xcassets in Resources */,
