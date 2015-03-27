@@ -31,6 +31,7 @@
 		E50C9D431AC5FB3300CEB6EC /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D421AC5FB3300CEB6EC /* images.jpeg */; };
 		E50C9D461AC5FDF600CEB6EC /* AppIcon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D441AC5FDF600CEB6EC /* AppIcon_120.png */; };
 		E50C9D471AC5FDF600CEB6EC /* AppIcon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = E50C9D451AC5FDF600CEB6EC /* AppIcon_180.png */; };
+		E57EFA801AC6039C005A9636 /* SellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EFA7F1AC6039C005A9636 /* SellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E50C9D421AC5FB3300CEB6EC /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		E50C9D441AC5FDF600CEB6EC /* AppIcon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_120.png; sourceTree = "<group>"; };
 		E50C9D451AC5FDF600CEB6EC /* AppIcon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_180.png; sourceTree = "<group>"; };
+		E57EFA7F1AC6039C005A9636 /* SellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				E50C9D271AC5C86F00CEB6EC /* ResultList.swift */,
 				E50C9D421AC5FB3300CEB6EC /* images.jpeg */,
 				E50C9D091AC5B94900CEB6EC /* Main.storyboard */,
+				E57EFA7F1AC6039C005A9636 /* SellView.swift */,
 				E50C9D3B1AC5F6D800CEB6EC /* SearchPopup.swift */,
 				E50C9D3E1AC5F9F400CEB6EC /* AirHop.png */,
 				E50C9D3D1AC5F9E600CEB6EC /* Lato-Light.ttf */,
@@ -281,6 +284,7 @@
 				E50C9D381AC5E43600CEB6EC /* Navigation.swift in Sources */,
 				E50C9D081AC5B94900CEB6EC /* ViewController.swift in Sources */,
 				E50C9D3A1AC5EAC100CEB6EC /* AccountView.swift in Sources */,
+				E57EFA801AC6039C005A9636 /* SellView.swift in Sources */,
 				E50C9D031AC5B94900CEB6EC /* AppDelegate.swift in Sources */,
 				E50C9D281AC5C86F00CEB6EC /* ResultList.swift in Sources */,
 				E50C9D061AC5B94900CEB6EC /* LastMinuteFlight.xcdatamodeld in Sources */,
